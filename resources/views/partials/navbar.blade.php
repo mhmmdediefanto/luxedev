@@ -1,5 +1,5 @@
 <div
-      class="
+    class="
         ud-header
         bg-transparent
         absolute
@@ -9,24 +9,18 @@
         w-full
         flex
         items-center
-      "
-    >
-      <div class="container">
+      ">
+    <div class="container">
         <div class="flex -mx-4 items-center justify-between relative">
-          <div class="px-4 w-60 max-w-full">
-            <a href="index.html" class="navbar-logo w-full block py-5">
-              <img
-                src="{{ asset('storage/images/logo/logo.svg') }}"
-                alt="logo"
-                class="w-full header-logo"
-              />
-            </a>
-          </div>
-          <div class="flex px-4 justify-between items-center w-full">
-            <div>
-              <button
-                id="navbarToggler"
-                class="
+            <div class="px-4 w-60 max-w-full">
+                <a href="index.html" class="navbar-logo w-full block py-5">
+                    <img src="{{ asset('storage/images/logo/logo.svg') }}" alt="logo" class="w-full header-logo" />
+                </a>
+            </div>
+            <div class="flex px-4 justify-between items-center w-full">
+                <div>
+                    <button id="navbarToggler"
+                        class="
                   block
                   absolute
                   right-4
@@ -38,21 +32,13 @@
                   px-3
                   py-[6px]
                   rounded-lg
-                "
-              >
-                <span
-                  class="relative w-[30px] h-[2px] my-[6px] block bg-white"
-                ></span>
-                <span
-                  class="relative w-[30px] h-[2px] my-[6px] block bg-white"
-                ></span>
-                <span
-                  class="relative w-[30px] h-[2px] my-[6px] block bg-white"
-                ></span>
-              </button>
-              <nav
-                id="navbarCollapse"
-                class="
+                ">
+                        <span class="relative w-[30px] h-[2px] my-[6px] block bg-white"></span>
+                        <span class="relative w-[30px] h-[2px] my-[6px] block bg-white"></span>
+                        <span class="relative w-[30px] h-[2px] my-[6px] block bg-white"></span>
+                    </button>
+                    <nav id="navbarCollapse"
+                        class="
                   absolute
                   py-5
                   lg:py-0 lg:px-4
@@ -68,13 +54,11 @@
                   top-full
                   hidden
                   lg:block lg:static lg:shadow-none
-                "
-              >
-                <ul class="blcok lg:flex">
-                  <li class="relative group">
-                    <a
-                      href="#home"
-                      class="
+                ">
+                        <ul class="blcok lg:flex">
+                            <li class="relative group">
+                                <a href="#home"
+                                    class="
                         ud-menu-scroll
                         text-base text-dark
                         lg:text-white
@@ -86,15 +70,13 @@
                         flex
                         mx-8
                         lg:mr-0
-                      "
-                    >
-                      Home
-                    </a>
-                  </li>
-                  <li class="relative group">
-                    <a
-                      href="#about"
-                      class="
+                      ">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="relative group">
+                                <a href="#about"
+                                    class="
                         ud-menu-scroll
                         text-base text-dark
                         lg:text-white
@@ -107,15 +89,13 @@
                         mx-8
                         lg:mr-0 lg:ml-7
                         xl:ml-12
-                      "
-                    >
-                      About
-                    </a>
-                  </li>
-                  <li class="relative group">
-                    <a
-                      href="#pricing"
-                      class="
+                      ">
+                                    About
+                                </a>
+                            </li>
+                            <li class="relative group">
+                                <a href="#pricing"
+                                    class="
                         ud-menu-scroll
                         text-base text-dark
                         lg:text-white
@@ -128,15 +108,13 @@
                         mx-8
                         lg:mr-0 lg:ml-7
                         xl:ml-12
-                      "
-                    >
-                      Pricing
-                    </a>
-                  </li>
-                  <li class="relative group">
-                    <a
-                      href="#team"
-                      class="
+                      ">
+                                    Pricing
+                                </a>
+                            </li>
+                            <li class="relative group">
+                                <a href="#team"
+                                    class="
                         ud-menu-scroll
                         text-base text-dark
                         lg:text-white
@@ -149,15 +127,13 @@
                         mx-8
                         lg:mr-0 lg:ml-7
                         xl:ml-12
-                      "
-                    >
-                      Team
-                    </a>
-                  </li>
-                  <li class="relative group">
-                    <a
-                      href="#contact"
-                      class="
+                      ">
+                                    Team
+                                </a>
+                            </li>
+                            <li class="relative group">
+                                <a href="#contact"
+                                    class="
                         ud-menu-scroll
                         text-base text-dark
                         lg:text-white
@@ -170,15 +146,13 @@
                         mx-8
                         lg:mr-0 lg:ml-7
                         xl:ml-12
-                      "
-                    >
-                      Contact
-                    </a>
-                  </li>
-                  <li class="relative group submenu-item">
-                    <a
-                      href="javascript:void(0)"
-                      class="
+                      ">
+                                    Contact
+                                </a>
+                            </li>
+                            <li class="relative group submenu-item">
+                                <a href="javascript:void(0)"
+                                    class="
                         text-base text-dark
                         lg:text-white
                         lg:group-hover:opacity-70
@@ -203,12 +177,11 @@
                         after:top-1/2
                         after:-translate-y-1/2
                         after:mt-[-2px]
-                      "
-                    >
-                      Pages
-                    </a>
-                    <div
-                      class="
+                      ">
+                                    Pages
+                                </a>
+                                <div
+                                    class="
                         submenu
                         hidden
                         relative
@@ -226,121 +199,103 @@
                         bg-white
                         transition-[top]
                         duration-300
-                      "
-                    >
-                      <a
-                        href="about.html"
-                        class="
+                      ">
+                                    <a href="about.html"
+                                        class="
                           block
                           text-sm text-body-color
                           rounded
                           hover:text-primary
                           py-[10px]
                           px-4
-                        "
-                      >
-                        About Page
-                      </a>
-                      <a
-                        href="pricing.html"
-                        class="
+                        ">
+                                        About Page
+                                    </a>
+                                    <a href="pricing.html"
+                                        class="
                           block
                           text-sm text-body-color
                           rounded
                           hover:text-primary
                           py-[10px]
                           px-4
-                        "
-                      >
-                        Pricing Page
-                      </a>
-                      <a
-                        href="contact.html"
-                        class="
+                        ">
+                                        Pricing Page
+                                    </a>
+                                    <a href="contact.html"
+                                        class="
                           block
                           text-sm text-body-color
                           rounded
                           hover:text-primary
                           py-[10px]
                           px-4
-                        "
-                      >
-                        Contact Page
-                      </a>
-                      <a
-                        href="blog-grids.html"
-                        class="
+                        ">
+                                        Contact Page
+                                    </a>
+                                    <a href="blog-grids.html"
+                                        class="
                           block
                           text-sm text-body-color
                           rounded
                           hover:text-primary
                           py-[10px]
                           px-4
-                        "
-                      >
-                        Blog Grid Page
-                      </a>
-                      <a
-                        href="blog-details.html"
-                        class="
+                        ">
+                                        Blog Grid Page
+                                    </a>
+                                    <a href="blog-details.html"
+                                        class="
                           block
                           text-sm text-body-color
                           rounded
                           hover:text-primary
                           py-[10px]
                           px-4
-                        "
-                      >
-                        Blog Details Page
-                      </a>
-                      <a
-                        href="signup.html"
-                        class="
+                        ">
+                                        Blog Details Page
+                                    </a>
+                                    <a href="/register"
+                                        class="
                           block
                           text-sm text-body-color
                           rounded
                           hover:text-primary
                           py-[10px]
                           px-4
-                        "
-                      >
-                        Sign Up Page
-                      </a>
-                      <a
-                        href="signin.html"
-                        class="
+                        ">
+                                        Sign Up Page
+                                    </a>
+                                    <a href="/login"
+                                        class="
                           block
                           text-sm text-body-color
                           rounded
                           hover:text-primary
                           py-[10px]
                           px-4
-                        "
-                      >
-                        Sign In Page
-                      </a>
-                      <a
-                        href="404.html"
-                        class="
+                        ">
+                                        Sign In Page
+                                    </a>
+                                    <a href="404.html"
+                                        class="
                           block
                           text-sm text-body-color
                           rounded
                           hover:text-primary
                           py-[10px]
                           px-4
-                        "
-                      >
-                        404 Page
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <div class="sm:flex justify-end hidden pr-16 lg:pr-0">
-              <a
-                href="signin.html"
-                class="
+                        ">
+                                        404 Page
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="sm:flex justify-end hidden pr-16 lg:pr-0">
+                    <a href="/login"
+                        class="
                   text-base
                   font-medium
                   text-white
@@ -348,13 +303,11 @@
                   py-3
                   px-7
                   loginBtn
-                "
-              >
-                Sign In
-              </a>
-              <a
-                href="signup.html"
-                class="
+                ">
+                        Sign In
+                    </a>
+                    <a href="/register"
+                        class="
                   text-base
                   font-medium
                   text-white
@@ -366,12 +319,11 @@
                   signUpBtn
                   duration-300
                   ease-in-out
-                "
-              >
-                Sign Up
-              </a>
+                ">
+                        Sign Up
+                    </a>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
+</div>

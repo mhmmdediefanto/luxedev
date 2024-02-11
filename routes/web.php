@@ -17,7 +17,16 @@ Route::get('/', function () {
     return view('public.index');
 });
 
+//login
+Route::get('/login', function () {
+    return view('login-page.login');
+});
 
+Route::get('/register', function(){
+    return view('login-page.register');
+});
+
+// dhasboard
 Route::get('/dashboard', function () {
     return view('dashboard.index');
 });
